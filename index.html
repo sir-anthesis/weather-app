@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container p-5">
+
+        <form id="inputSearch">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control rounded search" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default">
+                <button class="btn bi bi-search" type="submit"></button>
+            </div>
+        </form>
+
+        <div class="wrapper row text-center m-5 p-5">
+            <div class="image col-6">
+                <img class="img" src="images/clear.png" alt="">
+            </div>
+            <div class="status col-6 d-flex justify-content-center align-items-center">
+                <div class="wrap">
+                    <h2><span class="temp"></span> *C</h2>
+                    <h3 class="city">Jakarta</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper d-flex justify-content-around align-items-center">
+            <div class="wd row text-center">
+                <i class="bi bi-wind col-4 fs-1"></i>
+                <div class="col-8 text-start">
+                    <h3><span class="wind"></span> Km/H</h3>
+                    <h5>WIND SPEED</h5>
+                </div>
+            </div>
+            <div class="hm row text-center">
+                <i class="bi bi-droplet-fill col-4 fs-1"></i>
+                <div class="col-8 text-start">
+                    <h3><span class="humidity"></span> %</h3>
+                    <h5>HUMIDITY</h5>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
